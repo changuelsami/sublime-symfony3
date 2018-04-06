@@ -1,4 +1,4 @@
-This is a [Sublime Text][sublime] package which includes handy snippets for doing [Symfony3][symfony3] framework development.
+This is a [Sublime Text][sublime] package which includes handy snippets for doing [Symfony3][symfony3] framework development. This is a copy and update of https://github.com/raulfraile/sublime-Symfony2
 
 ## Installation ##
 
@@ -10,12 +10,7 @@ If you have the [Package Control][package_control] package installed, you can in
 
 If you haven't got Package Control installed you will need to make a clone of this repository into your packages folder, like so:
 
-    git clone https://github.com/raulfraile/sublime-Symfony3 Symfony3-snippets
-
-If you need to install a specific branch of the plugin (2.0 in this example), please use the following commands:
-
-    cd Symfony3-snippets
-    git checkout origin/2.0
+    git clone https://github.com/changuelsami/sublime-symfony3.git Symfony3-snippets
 
 ## Shortcuts ##
 
