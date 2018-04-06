@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+use Symfony\Component\Form\Extension\Core\Type\YourFormType;
+]]></content>
+    <tabTrigger>sfnsformtype</tabTrigger>
+    <scope>source.php</scope>
+    <description>Symfony3 / Namespace / FormType</description>
+</snippet>

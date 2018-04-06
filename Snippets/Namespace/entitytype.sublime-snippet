@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+use Symfony\Bridge\Doctrine\Form\Type\EntityType;
+]]></content>
+    <tabTrigger>sfnsentitytype</tabTrigger>
+    <scope>source.php</scope>
+    <description>Symfony3 / Namespace / EntityType</description>
+</snippet>

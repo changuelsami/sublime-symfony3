@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+// --START-- Move this to the top 
+use Symfony\Component\Form\Extension\Core\Type\TextType;
+use Symfony\Component\Form\Extension\Core\Type\SubmitType;
+// --END--
+
+\$form = \$this->createFormBuilder(${1:\$optionalObject})
+            ->add('${2:field1}', TextType::class)
+            ->add('${3:save}', SubmitType::class, array('label' => '${4:Submit this}'))
+            ->getForm();
+
+]]></content>
+    <tabTrigger>sfformbuilder</tabTrigger>
+    <scope>source.php</scope>
+    <description>Symfony3 / Controller / Create form builder</description>
+</snippet>
